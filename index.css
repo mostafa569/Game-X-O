@@ -1,0 +1,41 @@
+*{
+    background: linear-gradient(#4e5c5e, #6c6d7c);
+    
+    background-size: auto;
+    background-attachment: fixed;
+}
+
+.game{
+    width:255px;
+    text-align: center;
+    font-family: sans-serif;
+    color: aliceblue;
+    margin: auto;
+}
+.title{
+    background: rgb(17, 19, 18);
+    padding: 5px 0;
+    margin: 5px 0;
+    font-weight: 500;
+  
+}
+span{
+    color: rgb(216, 22, 22);
+}
+.square{
+    width: 80px;
+    height: 80px;
+    background: rgb(17, 19, 18);
+    margin: 2px;
+    float: left;
+    font-size: 50px;
+
+}.square:hover{
+    background: red;
+    cursor: pointer;
+
+}
+.name {
+    
+    color: yellowgreen;
+}
